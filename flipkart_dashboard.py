@@ -97,7 +97,7 @@ elif uploaded_file is not None:
 if 'df' in locals():
     df = preprocess(df)
 else:
-    st.error("Could not load file correctly")
+    st.error("Welcome to Flipkart Analytics Dashboard! Please upload a CSV, XLSX, or PDF file containing order data, or select the sample dataset option."")
     st.stop()
 
 # ---------- Filters ----------
